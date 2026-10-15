@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+int i,number;
+number=0;
+i=1;
+printf("Enter a number:");
+scanf("%d",&number);
+
+if(number<1 || number>10){
+    printf("Please don't do that");
+}
+while(i<=10){
+    printf("%d x %d = %d\n",number,i,number*i);
+    i++;
+}
+return 0;
+
+}
